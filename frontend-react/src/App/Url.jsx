@@ -58,7 +58,7 @@ export default function Url() {
                                     <div>Short: {item.shortUrl}</div>
                                     <div>Date: {item.date}</div>
                                     <div>
-                                        <button onClick={()=>deleteApi(item._id)} style={{background: "red", color: "white"}}>Delete Url</button>
+                                         <button onClick={()=>deleteApi(item._id)} style={{background: "red", color: "white"}}>Delete Url</button>
                                     </div>
                                 </div>
                             })
