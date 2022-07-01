@@ -57,9 +57,9 @@ export default function Url() {
                                     <div>LongUrl: {item.longUrl}</div>
                                     <div>Short: {item.shortUrl}</div>
                                     <div>Date: {item.date}</div>
-                                    <div>
+                                    {/* <div>
                                          <button onClick={()=>deleteApi(item._id)} style={{background: "red", color: "white"}}>Delete Url</button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             })
                         }
